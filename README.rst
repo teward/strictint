@@ -102,10 +102,10 @@ commands.
 ::
 
     # Use this to import as a module and call things with `imaplibext.OBJECTNAME`
-    import imaplibext
+    import strictint
 
-    # or, use this, to call IMAP4 and IMAP4_SSL directly in your code, but get the UID functions instead.
-    from imaplibext import IMAP4, IMAP4_SSL
+    # or, use this, to call StrictInt() directly in your code.
+    from strictint import StrictInt
 
 Usage
 -----
