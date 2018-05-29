@@ -1,0 +1,16 @@
+machine:
+  python:
+    version: 3.6.5
+dependencies:
+  pre:
+    - pyenv global 3.6.5
+  cache_directories:
+    - "~/virtualenvs"
+    - "~/.cache/pip"
+  override:
+    - pip3 install flake8 --upgrade
+    - pip3 install -r requirements.txt --upgrade
+test:
+  override:
+      - flake8 .
+      - python -m unittest -v tests
