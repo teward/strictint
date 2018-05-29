@@ -59,20 +59,17 @@ Simply copy the `imaplibext` package folder into your working directory for your
 
 ## Usage
 
-Once installed in either method, you can import into your Python code as a drop-in replacement for `imaplib`'s 
-`IMAP4` or `IMAP4_SSL` commands.
+Once installed in either method, you can import into your Python code to use the object.
 
     # Use this to import as a module and call things with `imaplibext.OBJECTNAME`
-    import imaplibext
+    import strictint
     
-    # or, use this, to call IMAP4 and IMAP4_SSL directly in your code, but get the UID functions instead.
-    from imaplibext import IMAP4, IMAP4_SSL
+    # or, use this, to call StrictInt() directly in your code.
+    from strictint import StrictInt
     
 ## Usage
 
-Usage is identical to `imaplib`'s `IMAP4` and `IMAP4_SSL` classes and corresponding function calls. There is no real
-difference in how to reference functions or the classes in the IMAP4 or IMAP4_SSL functions here compared to the parent
-`imaplib` functions.
+Usage is identical to how you would use the `int()` cast.
 
 
 ## FAQ
