@@ -1,4 +1,4 @@
-## IMAP Lib Extension Module
+## StrictInt Object Type Module
 
 ### Basic Information
 
